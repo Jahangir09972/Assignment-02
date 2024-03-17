@@ -1,16 +1,21 @@
+.Common-styles{
+    padding: 20px 70px;
+
+}
+
 .nav-styles{
     display: flex;
     justify-content: space-between;
-    padding: 5px 40px;
+    align-items: center;
 }
 
 .image-style{
     display: flex;
     justify-content: center;
-    text-align: center;
-    padding-left: 20px;
+    /* text-align: center; */
+    /* padding: 20px 20px;
     max-width: 1170px;
-    max-height: 500px;
+    max-height: 500px; */
 }
 .title-font{
     font-size: 45px;
@@ -21,7 +26,7 @@ nav > ul{
 }
 nav li{
     list-style: none;
-    margin: 30px;
+    margin: 20px;
     font-weight: 500;
     font-size: 20px;
 }
@@ -30,20 +35,63 @@ nav li a{
 
 }
 .font-color{
-    color: darkorange;
+    color: #ff900e;
 }
 .btn-color{
-    background-color: darkorange;
+    background-color: #ff900e;
     color: white;
     font-size: 15px;
     border-radius: 5px;
 }
 .btn-styles{
     border-radius: 5px;
-    color: gray;
+    background-color: lightgray;
+    padding: 10px 200px;
+
 }
 .tag-styles{
     display: block;
     justify-content: center;
     text-align: center;
 }
+.Popular-styles{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    
+}
+
+.row{
+    gap: 5px;
+    margin-top: 5px;
+}
+.row > div{
+    flex: 1;
+}
+
+/* Responsive media query */
+@media screen and (max-width:576px) {
+   .row{
+    flex-direction: column;
+    height: auto;
+   }
+   
+}
+/* medium device */
+@media screen and (min-width:576px) and (max-width: 992px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+       }
+       
+}
+
+/* responsive media queries */
+/* @media screen and (min-width: 600px) and (max-width:992px) {
+    .Common-styles{
+        padding: 20px 70px;
+    }
+    nav{
+        flex-direction: column;
+    }
+} */
