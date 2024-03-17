@@ -1,0 +1,49 @@
+.nav-styles{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+}
+
+.image-style{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
+    max-width: 1170px;
+    max-height: 500px;
+}
+.title-font{
+    font-size: 45px;
+
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+nav li a{
+    color: #424242;
+
+}
+.font-color{
+    color: darkorange;
+}
+.btn-color{
+    background-color: darkorange;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.btn-styles{
+    border-radius: 5px;
+    color: gray;
+}
+.tag-styles{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
