@@ -114,9 +114,51 @@ nav li a{
     /* justify-content: center; */
     text-align: center;
     margin-left: 30%;
-    margin-top: 30px;
+    margin-top: 100px;
+    margin-bottom: -90px;
 }
+/* container for image with wright */
+.container {
+    position: relative;
+    display: inline-block; /* Ensures the container only takes up the necessary space */
+  }
+  
 
+  .text-overlay {
+    position: absolute;
+    top: 50%; 
+    left: 70%;
+    transform: translate(-50%, -50%); /* Center the text */
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 30px;
+  }
+  .text2-overlay{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-200%, -50%); /* Center the text */
+    background-color: rgba(253, 253, 253, 0.7); 
+    padding: 30px;
+  }
+  .pack-btn{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 200;
+  }
+  /* .icon-img img{
+    width: 25px;
+    height: 25px;
+  } */
+  .icon{
+    display: flex;
+  }
+  .image {
+    display: block;
+    max-width: 100%;
+  }
+  
 .div-styles > div{
     width: 573px;
     height: 284px;
