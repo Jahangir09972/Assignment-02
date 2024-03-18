@@ -58,15 +58,68 @@ nav li a{
     display: flex;
     justify-content: space-around;
     margin: 20px auto;
-    
 }
 
-.row{
-    gap: 5px;
-    margin-top: 5px;
+.image-row{
+    margin-top: 15px auto;
 }
-.row > div{
+.image-row > div{
     flex: 1;
+}
+
+.item-description, .choose-us{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px auto;
+}
+.tag-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto;
+
+}
+.tag-container img{
+    width: 80px;
+    height: 80px;
+}
+.hotel{
+    width: 573px;
+    height: 284px;
+    background-color: rgb(248, 241, 231);
+}
+.map{
+    width: 573px;
+    height: 284px;
+    background-color: rgb(206, 250, 208);
+}
+.Wallet-Warranty{
+    /* display: block; */
+    /* text-align: center; */
+    /* justify-content: center;
+    margin-top: 100px auto; */
+    padding: 0, 50%;
+    width: 573px;
+    height: 284px;
+    background-color: rgb(255, 233, 206);
+}
+.Wallet-Warranty img{
+    width: 80px;
+    height: 80px;
+}
+.Discounts{
+    width: 573px;
+    height: 284px;
+    display: block;
+    /* justify-content: center; */
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+.div-styles > div{
+    width: 573px;
+    height: 284px;
 }
 
 /* Responsive media query */
@@ -82,6 +135,8 @@ nav li a{
     .row{
         flex-direction: column;
         height: auto;
+        padding: 20px 20px;
+        gap: 5px;
        }
        
 }
