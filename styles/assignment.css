@@ -139,8 +139,8 @@ img text{
 .image-row-2{
     gap: 1px;
     width: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: 0%;
     margin-right: 0%;
     padding: 0%;
@@ -313,19 +313,164 @@ img text{
     max-width: 1440px;
   }
 
-  @media screen and(max-width:576px) {
-    .resume{
-        grid-template-columns: repeat(1, 1fr);
+/* For mobile devices */ /* 1. Navigation Bar (Step No 01) */
+@media screen and (max-width: 600px) {
+    .nav-styles {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .image-style {
+        margin-bottom: 20px;
+    }
+
+    .icon-size img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title-font {
+        font-size: 30px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}
+
+/* For mobile devices */  /* 3. Popular Tours Section (Step No-03) */
+@media screen and (max-width: 768px) {
+    .Popular-styles {
+        flex-direction: column;
+        align-items: center;
+        margin: 30px auto;
+    }
+
+    .padding-text {
+        padding: 20px;
+    }
+
+    .Popular-styles img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
+/* For mobile devices */ /* 4. Choose Your Destination Section (Step No-04) */
+@media screen and (max-width: 768px) {
+    .image-row-1, .image-row-2, .image-row-3 {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        max-width: fit-content;
+    }
+
+    .image-row-2 {
+        margin-top: 15px;
+    }
+
+    .image-row-3 {
+        margin-top: 10px;
+    }
+
+    .image-row > div {
+        margin-bottom: 20px;
+    }
+}
+
+/* For mobile devices */ /* 5. Why Choose Us Section */
+@media screen and (max-width: 768px) {
+    .choose-us {
+        text-align: center;
+    }
+
+    .tag-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hotel, .map {
+        margin-bottom: 30px;
+    }
+}
+
+/* For mobile devices */ /* 6. Deals & Discounts Section */
+@media screen and (max-width: 768px) {
+    .Discounts {
+        text-align: center;
+    }
+}
+
+/* For mobile devices */ /* 7. Tour To Satorini Section */
+@media screen and (max-width: 768px) {
+    .container {
+        margin-bottom: 30px;
+    }
+}
+
+/* For mobile devices */  /* 8. A Simple Perfect Place To Get Lost Section */
+@media screen and (max-width: 768px) {
+    .padding-text {
+        padding: 20px;
+    }
+
+    .Popular-styles img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
+/* For mobile devices */ /* 9. Newsletter Section */
+@media screen and (max-width: 768px) {
+    .Popular-styles-2 {
+        flex-direction: column;
+        align-items: center;
+        margin: 30px auto;
+    }
+
+    .Newsletter-style {
+        padding: 20px;
+    }
+
+    .Newsletter-img {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+/* For mobile devices */ /* 10. Footer Section */
+@media screen and (max-width: 768px) {
+    .icon-container {
+        text-align: center;
     }
 }
 
 
 
-/* Responsive media query */
-/* @media screen and (max-width:576px) {
-   .row{
-    flex-direction: column;
-    height: auto;
-   }
-}      
-} */
+/* For devices up to 992px */
+@media screen and (max-width: 992px) {
+    .nav-styles {
+        padding: 15px;
+    }
+
+    .icon-size img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title-font {
+        font-size: 30px;
+    }
+
+    nav li {
+        font-size: 18px;
+    }
+}
