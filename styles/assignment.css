@@ -324,9 +324,8 @@ img text{
     padding: 30px;
     margin-top: 10px;
     transform: rotate(19deg)
-    max-width: 214px;
-    max-height: 80px;
-
+    /* max-width: 214px; */
+    /* max-height: 80px; */
   }
 
 /* For mobile devices */ /* 1. Navigation Bar (Step No 01) */
@@ -361,7 +360,7 @@ img text{
 }
 
 /* For mobile devices */  /* 3. Popular Tours Section (Step No-03) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .Popular-styles {
         flex-direction: column;
         align-items: center;
@@ -369,7 +368,9 @@ img text{
     }
 
     .padding-text {
-        padding: 20px;
+            padding: 20px;
+            margin-right: 15px;
+            border-radius: 5px;
     }
 
     .Popular-styles img {
@@ -380,12 +381,17 @@ img text{
 }
 
 /* For mobile devices */ /* 4. Choose Your Destination Section (Step No-04) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .image-row-1, .image-row-2, .image-row-3 {
         flex-direction: column;
         align-items: center;
         margin: 0;
         max-width: fit-content;
+    }
+    .Popular-styles{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px auto;
     }
 
     .image-row-2 {
@@ -402,7 +408,7 @@ img text{
 }
 
 /* For mobile devices */ /* 5. Why Choose Us Section */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .choose-us {
         text-align: center;
     }
@@ -418,21 +424,21 @@ img text{
 }
 
 /* For mobile devices */ /* 6. Deals & Discounts Section */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .Discounts {
         text-align: center;
     }
 }
 
 /* For mobile devices */ /* 7. Tour To Satorini Section */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .container {
         margin-bottom: 30px;
     }
 }
 
 /* For mobile devices */  /* 8. A Simple Perfect Place To Get Lost Section */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .padding-text {
         padding: 20px;
     }
@@ -445,7 +451,7 @@ img text{
 }
 
 /* For mobile devices */ /* 9. Newsletter Section */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .Popular-styles-2 {
         flex-direction: column;
         align-items: center;
@@ -463,7 +469,7 @@ img text{
 }
 
 /* For mobile devices */ /* 10. Footer Section */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .icon-container {
         text-align: center;
     }
