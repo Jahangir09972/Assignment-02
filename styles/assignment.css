@@ -323,7 +323,7 @@ img text{
     padding: 30px;
     margin-top: 10px;
     transform: rotate(-19deg)
-
+  }
 /* For mobile devices */ /* 1. Navigation Bar (Step No 01) */
 @media screen and (max-width: 600px) {
     .nav-styles {
@@ -345,6 +345,7 @@ img text{
         align-items: center;
         text-align: center;
         font-size: 20px;
+    }
 
     .icon-size img {
         width: 40px;
